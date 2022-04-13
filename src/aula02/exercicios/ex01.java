@@ -18,21 +18,14 @@ public class ex01 {
         System.out.print("Insira a turma do aluno: ");
         String Class = scanner.nextLine();
         System.out.print("Insira a primeira nota do aluno: ");
-        String Nota1 = scanner.nextLine();
-        System.out.print("Insira o nome do aluno: ");
-        String Nota2 = scanner.nextLine();
-        System.out.print("Insira o nome do aluno: ");
-        String Nota3 = scanner.nextLine();
+        Double Grade1 = scanner.nextDouble();
+        System.out.print("Insira a segunda nota do aluno: ");
+        Double Grade2 = scanner.nextDouble();
+        System.out.print("Insira a terceira nota do aluno: ");
+        Double Grade3= scanner.nextDouble();
 
-        Fahrenheit = Celsius * 1.8 + 32;
-        Kelvin = Celsius * 273.15;
-        Rankine = Celsius * 1.8 + 32 + 459.67 ;
-        Reaumur = Celsius * 0.8;
+        Double Average = (Grade1 + Grade2 + Grade3) / 3;
 
-        System.out.print("A temperatura de " + Celsius + "ºC inserida, quando convertida é:");
-        System.out.print("\n - Fahrenheit: " + Fahrenheit + "ºF,");
-        System.out.print("\n - Kelvin: " + Kelvin + "K,");
-        System.out.print("\n - Rankine: " + Rankine + "ºRa,");
-        System.out.print("\n - Réaumur: " + Reaumur + "ºRe.");
+        System.out.print("A média " + Name + ", é " + Average);
     }
 }
