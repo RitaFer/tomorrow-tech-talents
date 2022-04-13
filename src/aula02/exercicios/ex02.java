@@ -11,16 +11,16 @@ public class ex02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Insira seu nome completo: ");
-        String Name = scanner.nextLine().toUpperCase();
+        String name = scanner.nextLine().toUpperCase();
         System.out.print("Insira o seu endereço: ");
-        String Adress = scanner.nextLine().toUpperCase();
+        String adress = scanner.nextLine().toUpperCase();
         System.out.print("Insira o seu CEP: ");
-        String CEP = scanner.nextLine();
+        String cep = scanner.nextLine();
         System.out.print("Insira seu número de telefone: ");
-        String Number = scanner.nextLine();
+        String number = scanner.nextLine();
 
-        System.out.println("Nome: " + Name);
-        System.out.println("Endereço: " + Adress);
-        System.out.print("CEP: " + Name + ", e, telefone: " + Number);
+        System.out.println("Nome: " + name);
+        System.out.println("Endereço: " + adress);
+        System.out.print("CEP: " + cep + ", e, telefone: " + number);
     }
 }

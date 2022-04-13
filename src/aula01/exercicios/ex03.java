@@ -18,12 +18,12 @@ public class ex03 {
     public static void main(String[] args) {
         Scanner inserted = new Scanner(System.in);
         System.out.print("Insira o valor a ser emprestado: R$");
-        double C = inserted.nextDouble();
+        double c = inserted.nextDouble();
         System.out.print("Insira em quantos meses deseja pagar: ");
         double t = inserted.nextDouble();
         double i = 2 / 100d;
 
-        double finalValue = C * Math.pow(1 + i, t);
+        double finalValue = c * Math.pow(1 + i, t);
         System.out.print("O valor total pago ao final de " + t + " meses é de R$ " + finalValue);
     }
 }

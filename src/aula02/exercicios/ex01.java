@@ -14,18 +14,18 @@ public class ex01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Insira o nome do aluno: ");
-        String Name = scanner.nextLine();
+        String name = scanner.nextLine();
         System.out.print("Insira a turma do aluno: ");
-        String Class = scanner.nextLine();
+        String classStudent = scanner.nextLine();
         System.out.print("Insira a primeira nota do aluno: ");
-        Double Grade1 = scanner.nextDouble();
+        Double grade1 = scanner.nextDouble();
         System.out.print("Insira a segunda nota do aluno: ");
-        Double Grade2 = scanner.nextDouble();
+        Double grade2 = scanner.nextDouble();
         System.out.print("Insira a terceira nota do aluno: ");
-        Double Grade3= scanner.nextDouble();
+        Double grade3= scanner.nextDouble();
 
-        Double Average = (Grade1 + Grade2 + Grade3) / 3;
+        Double Average = (grade1 + grade2 + grade3) / 3;
 
-        System.out.print("A média " + Name + ", é " + Average);
+        System.out.print("A média " + name + ", é " + Average);
     }
 }

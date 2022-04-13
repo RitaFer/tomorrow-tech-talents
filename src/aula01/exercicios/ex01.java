@@ -14,18 +14,18 @@ public class ex01 {
     public static void main(String[] args) {
         Scanner insertedTemperature = new Scanner(System.in);
         System.out.print("Digite a temperatura em Celsius: ");
-        double Celsius, Fahrenheit, Kelvin, Rankine, Reaumur;
-        Celsius = insertedTemperature.nextDouble();
+        double celsius, fahrenheit, kelvin, rankine, reaumur;
+        celsius = insertedTemperature.nextDouble();
 
-        Fahrenheit = Celsius * 1.8 + 32;
-        Kelvin = Celsius * 273.15;
-        Rankine = Celsius * 1.8 + 32 + 459.67 ;
-        Reaumur = Celsius * 0.8;
+        fahrenheit = celsius * 1.8 + 32;
+        kelvin = celsius * 273.15;
+        rankine = celsius * 1.8 + 32 + 459.67 ;
+        reaumur = celsius * 0.8;
 
-        System.out.print("A temperatura de " + Celsius + "ºC inserida, quando convertida é:");
-        System.out.print("\n - Fahrenheit: " + Fahrenheit + "ºF,");
-        System.out.print("\n - Kelvin: " + Kelvin + "K,");
-        System.out.print("\n - Rankine: " + Rankine + "ºRa,");
-        System.out.print("\n - Réaumur: " + Reaumur + "ºRe.");
+        System.out.print("A temperatura de " + celsius + "ºC inserida, quando convertida é:");
+        System.out.print("\n - Fahrenheit: " + fahrenheit + "ºF,");
+        System.out.print("\n - Kelvin: " + kelvin + "K,");
+        System.out.print("\n - Rankine: " + rankine + "ºRa,");
+        System.out.print("\n - Réaumur: " + reaumur + "ºRe.");
     }
 }
