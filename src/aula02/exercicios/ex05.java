@@ -5,7 +5,7 @@ Escreva um programa para calcular a quantidade de litros de combustível necess�
 que o carro faz 12 Km com um litro. Deverão ser fornecidos o tempo gasto na viagem e a velocidade média.
 
 utilizar as seguintes fórmulas:
- 	distância = tempo x velocidade
+distância = tempo x velocidade
 litros usados = distância / 12
  */
 
