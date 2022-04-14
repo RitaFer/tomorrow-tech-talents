@@ -5,6 +5,7 @@ package aula03.exercicios;
 e imprima na tela os valores em ordem decrescente.
  */
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ex04 {
@@ -16,6 +17,14 @@ public class ex04 {
             numbers[i] = scanner.nextDouble();
         }
 
+        Arrays.sort(numbers);
+
+        System.out.println("\nOs números inseridos em forma decrescente: ");
+        for (int i = 4; i > 0; i--) {
+            System.out.println("- " + numbers[i] + ";");
+        }
+
+/*
         for (int i = 1; i < numbers.length; i++) {
             for (int j = 0; j < i; j++) {
                 if (numbers[i] > numbers[j]) {
@@ -23,7 +32,6 @@ public class ex04 {
                     numbers[i] = numbers[j];
                     numbers[j] = aux;
                 }
-
             }
         }
 
@@ -31,6 +39,6 @@ public class ex04 {
         for (double n : numbers) {
             System.out.println("- " + n + ";");
         }
+ */
     }
-
 }
