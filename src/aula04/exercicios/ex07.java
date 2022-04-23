@@ -13,18 +13,18 @@ import java.util.Scanner;
 public class ex07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int pontos = 0, cardNumber;
+        int pontos = 0;
         Character[] gabarito = new Character[10];
         Character[] respostas = new Character[10];
 
+        System.out.print("Insira os valores do gabarito: ");
         for (int i = 0; i < gabarito.length; i++) {
-            System.out.print("Insira o " + (i+1) + "º valor do gabarito: ");
             gabarito[i] = scanner.next().charAt(0);
         }
 
         for (int c = 1; c <= 10; c++){
+            System.out.print("Insira as respostas do " + c + "º aluno: ");
             for (int i = 0; i < gabarito.length; i++) {
-                System.out.print("Insira a " + (i+1) + "ª resposta do " + c + "º aluno: ");
                 respostas[i] = scanner.next().charAt(0);
                 if (Objects.equals(gabarito[i], respostas[i])) {
                     pontos++;
