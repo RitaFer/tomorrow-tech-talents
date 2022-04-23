@@ -36,9 +36,9 @@ public class ex06 {
         }
 
         if (pontos == 13){
-            System.out.print("Você Ganhou !! Acertou 13 !");
+            System.out.print(cardNumber + " Você Ganhou !! Acertou 13 !");
         } else {
-            System.out.print("Você Perdeu !! Você acertou apenas " + pontos + ".");
+            System.out.print(cardNumber + "Você Perdeu !! Você acertou apenas " + pontos + ".");
         }
     }
 }
