@@ -26,7 +26,7 @@ public class ex13 {
         double commission;
         System.out.println("Insira o tipo de combustível: (A ou G)");
         String type = scanner.nextLine();
-
+        
         if (!type.equalsIgnoreCase("a") && !type.equalsIgnoreCase("g")) {
             System.out.println("Valor inválido, favor insira a opção novamente: ");
             type = scanner.nextLine();
@@ -53,6 +53,6 @@ public class ex13 {
                 double discount = (total * 6d)/100;
                 System.out.println("Valor a ser pago é R$ " + (total-discount));
             }
-        }
+        } 
     }
 }
