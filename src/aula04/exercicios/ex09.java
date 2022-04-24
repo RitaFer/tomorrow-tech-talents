@@ -20,25 +20,25 @@ public class ex09 {
         Random random = new Random();
 
         // Preenche a matriz
-        for (int l = 0; l < 3; l++) {
-            for (int c = 0; c < 5; c++) {
+        for (int l = 0; l < sumLine.length; l++) {
+            for (int c = 0; c < sumColunm.length; c++) {
                 integers[l][c] = random.nextInt(100);
             }
         }
 
         // Soma as Linhas
-        for (int l = 0; l < 3; l++) {
+        for (int l = 0; l < sumLine.length; l++) {
             sum = 0;
-            for (int c = 0; c < 5; c++) {
+            for (int c = 0; c < sumColunm.length; c++) {
                 sum += integers[l][c];
             }
             sumLine[l] = sum;
         }
 
         // Soma as Colunas
-        for (int c = 0; c < 5; c++) {
+        for (int c = 0; c < sumColunm.length; c++) {
             sum = 0;
-            for (int l = 0; l < 3; l++) {
+            for (int l = 0; l < sumLine.length; l++) {
                 sum += integers[l][c];
             }
             sumColunm[c] = sum;
@@ -46,13 +46,13 @@ public class ex09 {
 
         // Resultado da Soma das Linhas
         System.out.println("\n\nVetor com a soma das linhas: \n");
-        for (int l = 0; l < 3; l++) {
+        for (int l = 0; l < sumLine.length; l++) {
             System.out.println("Linha " + l + ": " + sumLine[l]);
         }
 
         // Resultado da Soma das Colunas
         System.out.println("\n\nVetor com a soma das colunas: \n");
-        for (int c = 0; c < 5; c++) {
+        for (int c = 0; c < sumColunm.length; c++) {
             System.out.println("Coluna " + c + ": " + sumColunm[c]);
         }
 
