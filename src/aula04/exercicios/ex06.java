@@ -9,25 +9,26 @@ mostrar a mensagem "Ganhador".
  */
 
 import java.util.Objects;
+import java.util.Random;
 import java.util.Scanner;
 
 public class ex06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
         int pontos = 0, cardNumber;
-        Integer[] gabarito = new Integer[13];
-        Integer[] aposta = new Integer[13];
+        int[] gabarito = new int[13];
+        int[] aposta = new int[13];
 
-        for (int i = 0; i < gabarito.length; i++) {
-            System.out.print("Insira os valores do gabarito: ");
-            gabarito[i] = scanner.nextInt();
+        for (int d = 0; d < aposta.length; d++) {
+            gabarito[d] = random.nextInt(3) + 1;
         }
 
         System.out.print("Insira o número do cartão: ");
         cardNumber = scanner.nextInt();
 
         for (int d = 0; d < aposta.length; d++) {
-            System.out.print("Insira os valores da aposta: ");
+            System.out.print("Insira o " + (d+1) + "º valor da aposta: ");
             aposta[d] = scanner.nextInt();
 
             if (Objects.equals(gabarito[d], aposta[d])){
@@ -38,7 +39,7 @@ public class ex06 {
         if (pontos == 13){
             System.out.print(cardNumber + " Você Ganhou !! Acertou 13 !");
         } else {
-            System.out.print(cardNumber + "Você Perdeu !! Você acertou apenas " + pontos + ".");
+            System.out.print(cardNumber + " Você Perdeu !! Você acertou apenas " + pontos + ".");
         }
     }
 }
