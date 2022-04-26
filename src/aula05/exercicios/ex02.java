@@ -27,16 +27,16 @@ public class ex02 {
         int hours = scanner.nextInt();
 
         double grossSalary = wageHour * hours;
-        double fgts = (grossSalary * 11)/100;
-        double tradeUnion = (grossSalary * 3)/100;
+        double fgts = grossSalary * 0.11;
+        double tradeUnion = grossSalary * 0.03;
         double irpf = 0;
 
         if(grossSalary > 900 && grossSalary <= 1500){
-            irpf = (grossSalary * 5)/100;
+            irpf = grossSalary * 0.05;
         } else if(grossSalary > 1500 && grossSalary <= 2500){
-            irpf = (grossSalary * 10)/100;
+            irpf = grossSalary * 0.10;
         } else if(grossSalary > 2500){
-            irpf = (grossSalary * 20)/100;
+            irpf = grossSalary * 0.20;
         }
 
         System.out.println("=====================================================");
