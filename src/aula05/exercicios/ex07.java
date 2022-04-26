@@ -21,7 +21,7 @@ public class ex07 {
         double parcel = 0;
         double value = 0;
 
-        for(int i = 0; i < 2; i++){
+        for(int i = 0; i < 15; i++){
             System.out.print("Qual o valor da " + (i+1) + "ª transação? R$ ");
             value = scanner.nextDouble();
 
