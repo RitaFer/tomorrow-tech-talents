@@ -42,6 +42,5 @@ public class ex03 {
         } else {
             System.out.println("INOCENTE");
         }
-
     }
 }
