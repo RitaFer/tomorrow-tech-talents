@@ -17,28 +17,36 @@ public class ex07 {
         double totalValue = 0;
         double totalInCash = 0;
         double totalInstallments = 0;
+        char pay = 'S';
         double parcel = 0;
         double value = 0;
 
-        for(int i = 0; i < 15; i++){
-            System.out.println("Qual o valor da transação? ");
+        for(int i = 0; i < 2; i++){
+            System.out.print("Qual o valor da " + (i+1) + "ª transação? R$ ");
             value = scanner.nextDouble();
-            System.out.println("Qual a forma de pagamento? ");
-            String payment = scanner.nextLine();
-            char pay = payment.toUpperCase().charAt(0);
-            totalValue += value;
+
+            while(true) {
+                System.out.print("Qual a forma de pagamento? ");
+                pay = scanner.next().toUpperCase().charAt(0);
+                if(pay == 'V' || pay == 'P'){
+                    totalValue += value;
+                    break;
+                }
+                System.out.println("Opção inválida !! Favor, tente novamente.");
+            }
 
             if(pay == 'V') {
                 totalInCash += value;
-            } else if (pay == 'P'){
+            } else {
                 totalInstallments += value;
-                parcel = value / 3;
-                System.out.println("O valor da primeira prestação da compra nº: " + (i+1) + ", paga a prazo é R$ " + parcel);
             }
         }
 
+        parcel = totalInstallments / 3;
+
         System.out.println("O valor total das compras à vista: R$ " + totalInCash);
-        System.out.println("O valor total das compras a prazo: R$ " + totalInstallments);
+        System.out.println("O valor total das compras à prazo: R$ " + totalInstallments);
         System.out.println("O valor total das compras efetuadas: R$ " + totalValue);
+        System.out.println("O valor da primeira prestação das compras pagas à prazo é R$ " + parcel);
     }
 }
