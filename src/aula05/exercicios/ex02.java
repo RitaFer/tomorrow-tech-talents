@@ -35,7 +35,7 @@ public class ex02 {
             irpf = (grossSalary * 5)/100;
         } else if(grossSalary > 1500 && grossSalary <= 2500){
             irpf = (grossSalary * 10)/100;
-        } else{
+        } else if(grossSalary > 2500){
             irpf = (grossSalary * 20)/100;
         }
 
