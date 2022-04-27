@@ -8,7 +8,7 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 
 ## Activities
 
-### Table of Contents
+### Table of Modules
 
 1. [Programming Logic](#programming-logic)
 2. [Extra](#extra)
