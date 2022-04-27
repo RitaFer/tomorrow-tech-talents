@@ -22,7 +22,6 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 5. [Class 5](#class-5)
 
 #### Class 1
-
 1. [Temperature Converter](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula01/exercicios/ex01.java) - Temperature convert, which converts a temperature in Celsius to Kelvin, Fahrenheit, Rankine and Réaumur.
 2. [Horse Power](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula01/exercicios/ex02.java) - Calculates how much horsepower is need to lift a weight.
 3. [Interest on Loan](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula01/exercicios/ex03.java) - Calculates the total amount to pay in a Compound Interest Loan.
@@ -40,7 +39,6 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 15. [Horseshoes Number](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula01/exercicios/ex15.java) - Calculates the amount of horse shoes needed for a number of horses.
 
 #### Class 2
-
 1. [Average Grade](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula02/exercicios/ex01.java) - Receives: the student name, the class name and 3 grades. Then calculate the average.
 2. [Person Information](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula02/exercicios/ex02.java) - Receives: first name, last name, address, CEP and telephone number. Then prints this information formatted.
 3. [Formatted Info](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula02/exercicios/ex03.java) - Prints a formatted info, like a form.
@@ -49,7 +47,6 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 6. [Four Numbers Calculation](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula02/exercicios/ex06.java) - Receives four numbers and calculate the sum of the squares of these numbers.
 
 #### Class 3
-
 1. [Approval Validation](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula03/exercicios/ex01.java) - Receives four grads and return if the student were approved or not.
 2. [Positive Or Negative](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula03/exercicios/ex02.java) - Receives numbers and return if the number is positive or negative, and ends if the number is equal 0.
 3. [Multiples Of Ten](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula03/exercicios/ex03.java) - Counts from 1 to 100 and informs which numbers are multiples of 10 .
@@ -64,7 +61,6 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 12. [Valid Information](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula03/exercicios/ex12.java) - Receives name, age, salary, gender and marital status, if they are valid, and prints this information.
 
 #### Class 4
-
 1. [Random Numbers](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula04/exercicios/ex01.java) - Generates 10 random real numbers, stores them in an array and prints them.
 2. [Matrix Example](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula04/exercicios/ex02.java) - Creates a matrix 2x5.
 3. [The Highest Value](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula04/exercicios/ex03.java) - Generates randomly a 3x3 matrix, finds the highest value of this matrix.
@@ -84,7 +80,6 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 17. [Salary Sense](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula04/exercicios/ex17.java) - Receives salaries and children number, and calculates, the average salary, the average children number, the higher salary, and the percentage of interviewees that have salarys under $150,00. To end the program you need to enter a negative salary.
 
 #### Class 5
-
 1. [Cigarette Money](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula05/exercicios/ex01.java) - Calculates how much did you spent on cigarette already.
 2. [Paycheck](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula05/exercicios/ex02.java) - Receives the payment per hour and number of hours horked per mounth, then calculates union dues, FGTS, income tax and net salary.
 3. [Criminal Investigation](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula05/exercicios/ex03.java) - Receives answers to 5 questions, then classified the interrogated as innocent, suspect, an accomplice ou the killer.
@@ -97,9 +92,11 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 10. [Film Survey](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula05/exercicios/ex10.java) - Asks 5 viewers their opinion about a film, then prints the average age of viewers who rated the film as great,the number of viewers who rated the film as regular and the percentage of viewers who rated the film as good.
 
 ## Extra
-
-1.
-2.
-3.
-4.
-5.
+#### Hacker Rank
+1. [Welcome to Java!](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/extras/hackerrank/d01.java)
+2. [Java Stdin and Stdout I](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/extras/hackerrank/d02.java)
+3. [Java If-Else](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/extras/hackerrank/d03.java)
+4. [Java Stdin and Stdout II](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/extras/hackerrank/d04.java)
+5. [Java Output Formatting](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/extras/hackerrank/d05.java)
+6. [Java Loops I](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/extras/hackerrank/d06.java)
+7. [Java Loops II](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/extras/hackerrank/d07.java)
