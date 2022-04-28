@@ -23,7 +23,7 @@ public class ex05 {
             System.out.println("4 - Remover um contato;");
             System.out.println("5 - Sair do programa;");
             System.out.print("\n");
-            System.out.print("Insira a opção do que deseja fazer:");
+            System.out.print("Insira a opção do que deseja fazer: ");
             int option = scanner.nextInt();
             scanner.nextLine();
             switch (option) {
@@ -103,7 +103,8 @@ public class ex05 {
                     System.out.print("Contato removido com sucesso !");
                 }
                 case 5 -> {
-                    System.out.print("Até logo !!");
+                    System.out.print("\nAté logo !!");
+                    System.exit(0);
                 }
                 default -> {
                     System.out.println("Opção Inválida. Favor escolha outra opção !");
