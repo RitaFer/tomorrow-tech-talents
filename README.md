@@ -11,15 +11,17 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 ### Table of Modules
 
 1. [Programming Logic](#programming-logic)
-2. [Extra](#extra)
+2. [Object-Oriented Programming](#object-oriented-programming)
+3. [Extra](#extra)
 
 
 ### Programming Logic
-1. [Class 1](#class-1)
-2. [Class 2](#class-2)
-3. [Class 3](#class-3)
-4. [Class 4](#class-4)
-5. [Class 5](#class-5)
+   - [Class 1](#class-1)
+   - [Class 2](#class-2)
+   - [Class 3](#class-3)
+   - [Class 4](#class-4)
+   - [Class 5](#class-5)
+   - [Class 6](#class-6)
 
 #### Class 1
 1. [Temperature Converter](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula01/exercicios/ex01.java) - Temperature convert, which converts a temperature in Celsius to Kelvin, Fahrenheit, Rankine and Réaumur.
@@ -91,6 +93,18 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 9. [Weight Arithimetic Average](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula05/exercicios/ex09.java) - Asks to choose an option(1 - Arithimetic averag; 2 - Weight average; 0 - exit) and, if is a valid option calculates and prints the type os average chosen.
 10. [Film Survey](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula05/exercicios/ex10.java) - Asks 5 viewers their opinion about a film, then prints the average age of viewers who rated the film as great,the number of viewers who rated the film as regular and the percentage of viewers who rated the film as good.
 
+#### Class 6
+1. [Jump Competition](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula06/exercicios/ex01.java) - Receives many competidors names and jumps as you want, and print their results in the end.
+2. [Paints](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula06/exercicios/ex02.java) - Receives an area to be painted, and calculates the amount of paint cans needed and their total value.
+3. [Fishing Tax](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula06/exercicios/ex03.java) - Receives the amount kg of fish cought, and if it exceeds the maximun allowed, calculates the fishing tax.
+4. [Traffic Statistics](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula06/exercicios/ex04.java) - Receives traffic statistics of 5 cities, and print some of it.
+5. [Ideal Weight](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula06/exercicios/ex05.java) - Receives a hight and a gender, then calculates your ideal weight.
+6. [Paint Store](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula06/exercicios/ex06.java) - Receives an area to be painted, and calculates the amount of paint 18L cans, or 3,6L gallons, needed and their total value.
+7. [Car Comparison](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/aula06/exercicios/ex07.java) - Receives car models and car consumptions, and prints them in a report.
+
+### Object-Oriented Programming
+There's nothing here yet :(
+
 ## Extra
 #### Hacker Rank
 1. [Welcome to Java!](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/extras/hackerrank/d01.java)
@@ -100,3 +114,6 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 5. [Java Output Formatting](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/extras/hackerrank/d05.java)
 6. [Java Loops I](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/extras/hackerrank/d06.java)
 7. [Java Loops II](https://github.com/RitaFer/tomorrow-tech-talents/blob/main/src/extras/hackerrank/d07.java)
+
+#### DevDojo
+[Exercise List](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/extras/devdojo)
