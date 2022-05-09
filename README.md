@@ -103,6 +103,7 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 7. [Car Comparison](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/programminglogic/class06/ex07.java) - Receives car models and car consumptions, and prints them in a report.
 
 ### Object-Oriented Programming
+#### Exercices
 1. [Soccer Game](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oop/soccer) -  Application for soccer game control according to some parameters for implementation stipulated above.
 2. [Stock Product](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oop/stock) - Application for stock control according to some parameters for implementation stipulated above.
 
