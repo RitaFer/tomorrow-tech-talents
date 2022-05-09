@@ -12,7 +12,7 @@ public class Account {
         this.accountStatus = false;
     }
 
-    public void openAccount(char t, String name){
+    public void openAccount(char t, String name, int n){
         if(t == 'C'){
             this.accountBalance = 50;
         } else if(t == 'P'){
@@ -24,6 +24,7 @@ public class Account {
         this.accountOwner = name;
         this.accountStatus = true;
         this.type = t;
+        this.accountNumber = n;
     }
 
     public void closeAccount(){
