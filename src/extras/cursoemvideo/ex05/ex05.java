@@ -3,7 +3,7 @@ package extras.cursoemvideo.ex05;
 public class ex05 {
     public static void main(String[] args) {
         Account joaquim = new Account();
-        joaquim.openAccount('C', "Joaquim da Silva Neto");
+        joaquim.openAccount('C', "Joaquim da Silva Neto", 55225);
         System.out.println(joaquim.getAccountBalance());
         joaquim.withdrawMoney(50);
         System.out.println(joaquim.getAccountBalance());
