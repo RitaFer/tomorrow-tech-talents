@@ -1,34 +1,31 @@
-## Crie a classe Jogador descrita no “diagrama” abaixo:
+### Create the Player class described in the “diagram” below:
 
 <img src="https://github.com/RitaFer/tomorrow-tech-talents/blob/main/assets/oop-stock-images/2022-05-09_19h38_53.png" />
 
-### a) 
-Cadastrar/Instanciar pelo menos um time completo 11 jogadores. 
+#### a)
+Register/Instantiate at least one complete team 11 players.
 
-### b) 
-Criar um método que verifica a condição de jogo, ou seja, um método booleano que retornará true se o jogador está apto a jogar e false se o jogador está suspenso. Note que um jogador está suspenso pelo 3 cartão amarelo ou quando recebe um cartão vermelho. 
+#### b)
+Create a method that checks the game condition, that is, a boolean method that will return true if the player is able to play and false if the player is suspended. Note that a player is suspended for 3 yellow cards or when receiving a red card.
 
-### c) 
-Em uma outra classe, crie o método main, o qual cadastra os jogadores e ao final imprimirá a lista do time juntamente com a informação de quem está apto a jogar, conforme a figura abaixo. (Sobrescrever o método toString())
+#### c)
+In another class, create the main method, which registers the players and at the end will print the team list together with the information of who is able to play, as shown in the figure below. (Override toString() method)
 
 <img src="https://github.com/RitaFer/tomorrow-tech-talents/blob/main/assets/oop-stock-images/2022-05-09_19h38_44.png" />
 
-### d) 
+#### d)
 
-Crie novos métodos na classe Jogador:
+Create new methods in the Player class:
 
-- aplicarCartaoAmarelo(int quantidade): void - Aplica a quantidade de cartões, informada ao jogador, adicionalmente pode tornar um jogador suspenso.
+- applyYellowCard(int quantity): void - Applies the number of cards, informed to the player, additionally it can make a player suspended.
 
-- aplicarCartaoVermelho(): void - Aplica um cartão vermelho ao jogador, torna um jogador suspenso.
+- applyRedCard(): void - Applies a red card to the player, makes a player suspended.
 
-- cumprirSuspencao(): void – Esse método vai zerar a quantidade de
-cartões e tornar o jogador apto a jogar
+- fulfillSuspencao(): void – This method will reset the amount of
+cards and make the player able to play
 
-- sofrerLesao(): void – Este método vai gerar aleatoriamente um lesão no jogador. A gravidade da lesão irá se refletir em uma redução da qualidade do jogador, quanto mais grave maior a redução da qualidade. Crie uma escala de redução de no mínimo 1 ponto até o máximo de 15% da qualidade total do jogador. Note que a qualidade jamais pode ficar negativa. A tabela abaixo pode ser utilizada como referência:
+- sufferInjury(): void – This method will randomly generate an injury to the player. The severity of the injury will be reflected in a reduction in the quality of the player, the more serious the greater the reduction in quality. Create a scale of reduction from a minimum of 1 point to a maximum of 15% of the player's total quality. Note that the quality can never be negative. The table below can be used as a reference:
 
 <img src="https://github.com/RitaFer/tomorrow-tech-talents/blob/main/assets/oop-stock-images/2022-05-09_19h38_29.png" />
 
-- executarTreinamento(): void – A exemplo do método anterior, este método vai aumentar a qualidade do jogador aleatoriamente em um número entre 1 e 3. Note que só pode ser executado 1 treinamento antes de cada partida (você deve adicionar um atributo na classe para poder controlar essa informação). 
-
-
-Obs: Caso queiram, podem representar os atributos cartoesAmarelo e cartaoVermelho como um novo tipo (Cartao).
+- runTraining(): void – Like the previous method, this method will increase the player's quality randomly by a number between 1 and 3. Note that you can only run 1 training before each match (you must add an attribute in the class to be able to control this information).
