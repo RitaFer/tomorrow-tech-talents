@@ -106,6 +106,7 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 #### Exercices
 1. [Soccer Game](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oop/soccer) -  Application for soccer game control according to some parameters for implementation stipulated above.
 2. [Stock Product](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oop/stock) - Application for stock control according to some parameters for implementation stipulated above.
+3. [School Members](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oop/school) - Application for stock control according to some parameters for implementation stipulated above.
 
 ## Extra
 #### Hacker Rank
