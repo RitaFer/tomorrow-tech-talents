@@ -1,310 +1,46 @@
 package oop.school;
 
-import java.util.Scanner;
+import java.util.ArrayList;
 
 public class App {
-    /*
     public static void main(String[] args) {
-        School java = new School();
-        Scanner scanner = new Scanner(System.in);
-        boolean executeApp = true;
+        ArrayList<Student> students = new ArrayList<>();
+        ArrayList<Employee> employees = new ArrayList<>();
+        ArrayList<Teacher> teachers = new ArrayList<>();
 
-        while (executeApp){
-            executeApp = menu(scanner, java);
-        }
-        scanner.close();
+        School java = new School(students, employees, teachers);
+
+        System.out.println("++++++++++++++++++TESTE MÉTODOS DE ESTUDANTE++++++++++++++++++");
+        System.out.println("\n===============CRIAR ESTUDANTE===============");
+        java.addStudent("Alexandre", "458.795.886-07", "50.089.456-7", "20582305", 22, "ABC", new ArrayList<>());
+        java.addStudent("Maria", "895.115.886-07", "50.159.587-7", "125896472", 23, "AAACC", new ArrayList<>());
+        System.out.println("\n===============ATUALIZAR ESTUDANTE===============");
+        java.updateStudent("João", "458.795.886-07", "50.089.456-7", "20582305", 22, "ABC", new ArrayList<>());
+        System.out.println("\n===============DELETAR ESTUDANTE===============");
+        java.deleteStudent("458.795.886-07");
+        System.out.println("\n===============LER ESTUDANTES===============");
+        java.readStudents();
+
+        System.out.println("++++++++++++++++++TESTE MÉTODOS DE PROFESSOR++++++++++++++++++");
+        System.out.println("\n===============CRIAR PROFESSOR===============");
+        java.addTeacher("Adriano", "589.795.886-07", "50.189.456-7", 2508.88, new ArrayList<>(), new ArrayList<>());
+        java.addTeacher("Álvaro", "878.795.886-07", "50.189.130-7", 2598.88, new ArrayList<>(), new ArrayList<>());
+        System.out.println("\n===============ATUALIZAR PROFESSOR===============");
+        java.updateTeacher("Matias", "878.795.886-07", "50.189.130-7", 2598.88, new ArrayList<>(), new ArrayList<>());
+        System.out.println("\n===============DELETAR PROFESSOR===============");
+        java.deleteTeacher("878.795.886-07");
+        System.out.println("\n===============LER PROFESSORES===============");
+        java.readTeachers();
+
+        System.out.println("++++++++++++++++++TESTE MÉTODOS DE FUNCIONÁRIO++++++++++++++++++");
+        System.out.println("\n===============CRIAR FUNCIONÁRIO===============");
+        java.addEmployee("Mariana", "589.589.886-07", "49.189.456-7", "Secretária", 1524.55);
+        java.addEmployee("Suzana", "125.795.895-07", "25.189.456-7", "Diretora", 5689.55);
+        System.out.println("\n===============ATUALIZAR FUNCIONÁRIO===============");
+        java.updateEmployee("Mariana", "589.589.886-07", "49.189.456-7", "Vice-Diretora", 4888.90);
+        System.out.println("\n===============DELETAR FUNCIONÁRIO===============");
+        java.deleteEmployee("125.795.895-07");
+        System.out.println("\n===============LER FUNCIONÁRIOS===============");
+        java.readEmployees();
     }
-
-    //--------------------MÉTODOS------------------------
-    private static boolean menu(Scanner scanner, School java){
-        System.out.println();
-        System.out.println("Bem vindo ao app da escola de programação.");
-        System.out.println("1-> Cadastrar pessoa. 2-> Listar cadastros. 3-> Atualizar cadastro. 4->Deletar cadastro." +
-                " 5-> Listar cadastro específico. 6-> Calcular média de aluno. 7-> Sair.");
-        int opcao;
-        int acao = scanner.nextInt();
-
-        switch (acao){
-            case 1:
-                System.out.println("Cadastrar pessoa.");
-                opcao = validarOpcao(scanner);
-                scanner.nextLine();
-                cadastrar(opcao, scanner, java);
-                return true;
-            case 2:
-                System.out.println("Listar cadastros.");
-                opcao = validarOpcao(scanner);
-                listar(opcao,escola);
-                return true;
-            case 3:
-                System.out.println("Atualizar cadastro.");
-                opcao = validarOpcao(scanner);
-                atualizar(opcao,scanner,escola);
-                return true;
-            case 4:
-                System.out.println("Deletar cadastro.");
-                opcao = validarOpcao(scanner);
-                deletar(opcao,scanner,escola);
-                return true;
-            case 5:
-                System.out.println("Buscar cadastro por id.");
-                opcao = validarOpcao(scanner);
-                buscarPorId(opcao,scanner,escola);
-                return true;
-            case 6:
-                System.out.println("Calcular média de aluno.");
-                mediaNotaAluno(scanner,escola);
-                return true;
-            case 7:
-                System.out.println("Fechando aplicação");
-                return false;
-            default:
-                System.out.println("Digite uma opção válida");
-                return true;
-        }
-    }
-
-    private static int validarOpcao(Scanner scanner){
-        int opcao = 0;
-        boolean executar = true;
-
-        while (executar){
-            System.out.println("1-> Funcionário, 2-> Aluno, 3-> Professor.");
-            opcao = scanner.nextInt();
-            if (opcao == 1 || opcao == 2 || opcao == 3){
-                executar = false;
-            } else {
-                System.out.println("Digite uma opção válida");
-                executar = true;
-            }
-        }
-        return opcao;
-    }
-
-    private static void cadastrar(int opcao, Scanner scanner, School java){
-        if (opcao == 1){
-            System.out.println("----------Cadastro de Funcionário----------");
-            System.out.println("Insira o nome:");
-            String nome = scanner.nextLine();
-            System.out.println("Insira o cpf.");
-            String cpf = scanner.nextLine();
-            System.out.println("Insira o rg.");
-            String rg = scanner.nextLine();
-            System.out.println("Insira o cargo.");
-            String cargo = scanner.nextLine();
-            System.out.println("Insira o salário.");
-            double salario = scanner.nextDouble();
-            java.addEmployee(nome,cpf,rg,cargo,salario);
-        }
-        else if (opcao == 2) {
-            System.out.println("----------Cadastro de Aluno----------");
-            System.out.println("Insira o nome.");
-            String nome = scanner.nextLine();
-            System.out.println("Insira o cpf.");
-            String cpf = scanner.nextLine();
-            System.out.println("Insira o rg.");
-            String rg = scanner.nextLine();
-            System.out.println("Insira a idade.");
-            int idade = scanner.nextInt();
-            scanner.nextLine();
-            System.out.println("Insira a turma.");
-            String turma = scanner.nextLine();
-
-            ArrayList<Notas> notas = new ArrayList<Notas>();
-            for (int i = 0; i < 2; i++){
-                System.out.println("Insira a nota " + (i+1) + "° de matemática.");
-                double notaMatematica = scanner.nextDouble();
-                System.out.println("Insira a nota " + (i+1) + "° de português.");
-                double notaPortugues = scanner.nextDouble();
-                Notas nota = new Notas(notaMatematica, notaPortugues);
-                notas.add(nota);
-            }
-            escola.cadastrarAluno(nome, cpf, rg, idade, turma, notas);
-        }
-        else if (opcao == 3) {
-            System.out.println("----------Cadastro de Professor----------");
-            System.out.println("Insira o nome.");
-            String nome = scanner.nextLine();
-            System.out.println("Insira o cpf.");
-            String cpf = scanner.nextLine();
-            System.out.println("Insira o rg.");
-            String rg = scanner.nextLine();
-            System.out.println("Insira o salário.");
-            Double salario = scanner.nextDouble();
-            System.out.println("Insira o número de turmas.");
-            int turmas = scanner.nextInt();
-            System.out.println("Insira o múmero de disciplinas.");
-            int disciplinas = scanner.nextInt();
-            escola.cadastrarProfessor(nome, cpf, rg, salario, turmas, disciplinas);
-        }
-    }
-
-    private static void listar(int opcao, Escola escola){
-        if (opcao == 1){
-            System.out.println("----------Funcionários cadastrados----------");
-            escola.listarFuncionario();
-        }
-        else if (opcao == 2) {
-            System.out.println("----------Alunos cadastrados----------");
-            escola.listarAlunos();
-        }
-        else if (opcao == 3) {
-            System.out.println("----------Professores cadastrados----------");
-            escola.listarProfessor();
-        }
-    }
-
-    private static void atualizar(int opcao, Scanner scanner, Escola escola){
-        if (opcao == 1){
-            System.out.println("----------Atualizar cadastro Funcionário----------");
-            escola.listarFuncionario();
-            System.out.println("Insira o Id do funcionário");
-            long id = scanner.nextLong();
-            scanner.nextLine();
-
-            if (escola.existeIdFuncionario(id)){
-                System.out.println("Insira o nome.");
-                String nome = scanner.nextLine();
-                System.out.println("Insira o cpf.");
-                String cpf = scanner.nextLine();
-                System.out.println("Insira o rg.");
-                String rg = scanner.nextLine();
-                System.out.println("Insira o cargo.");
-                String cargo = scanner.nextLine();
-                System.out.println("Insira o salário.");
-                Double salario = scanner.nextDouble();
-                escola.atualizarFuncionario(id, nome, cpf, rg, cargo, salario);
-            }
-        }
-        else if (opcao == 2) {
-            System.out.println("----------Atualizar cadastro Aluno----------");
-            escola.listarAlunos();
-            System.out.println("Insira o Id do aluno");
-            long id = scanner.nextLong();
-            scanner.nextLine();
-
-            if (escola.existeIdAluno(id)) {
-                System.out.println("Insira o nome.");
-                String nome = scanner.nextLine();
-                System.out.println("Insira o cpf.");
-                String cpf = scanner.nextLine();
-                System.out.println("Insira o rg.");
-                String rg = scanner.nextLine();
-                System.out.println("Insira a idade.");
-                int idade = scanner.nextInt();
-                scanner.nextLine();
-                System.out.println("Insira a turma.");
-                String turma = scanner.nextLine();
-
-                ArrayList<Notas> notas = new ArrayList<Notas>();
-                for (int i = 0; i < 2; i++){
-                    System.out.println("Insira a nota " + (i+1) + "° de matemática.");
-                    double notaMatematica = scanner.nextDouble();
-                    System.out.println("Insira a nota " + (i+1) + "° de português.");
-                    double notaPortugues = scanner.nextDouble();
-                    Notas nota = new Notas(notaMatematica, notaPortugues);
-                    notas.add(nota);
-                }
-                escola.atualizarAlunos(id, nome, cpf, rg, idade, turma, notas);
-            }
-        }
-        else if (opcao == 3) {
-            System.out.println("----------Atualizar cadastro Professor----------");
-            escola.listarProfessor();
-            System.out.println("Insira o Id do professor");
-            long id = scanner.nextLong();
-            scanner.nextLine();
-
-            if (escola.existeIdProfessor(id)){
-                System.out.println("Insira o nome.");
-                String nome = scanner.nextLine();
-                System.out.println("Insira o cpf.");
-                String cpf = scanner.nextLine();
-                System.out.println("Insira o rg.");
-                String rg = scanner.nextLine();
-                System.out.println("Insira o salário.");
-                Double salario = scanner.nextDouble();
-                System.out.println("Insira o número de turmas.");
-                int turmas = scanner.nextInt();
-                System.out.println("Insira o múmero de disciplinas.");
-                int disciplinas = scanner.nextInt();
-                escola.atualizarProfessor(id, nome, cpf, rg, salario, turmas, disciplinas);
-            }
-        }
-    }
-
-    private static void deletar(int opcao, Scanner scanner, Escola escola) {
-        if (opcao == 1){
-            System.out.println("----------Remover Funcionário----------");
-            escola.listarFuncionario();
-            System.out.println("Insira o Id do funcionário");
-            long id = scanner.nextLong();
-
-            if (escola.existeIdFuncionario(id)){
-                escola.deletarFuncionario(id);
-            }
-        }
-        else if (opcao == 2) {
-            System.out.println("----------Remover Aluno----------");
-            escola.listarAlunos();
-            System.out.println("Insira o Id do aluno");
-            long id = scanner.nextLong();
-
-            if (escola.existeIdAluno(id)){
-                escola.deletarAluno(id);
-            }
-        }
-        else if (opcao == 3) {
-            System.out.println("----------Remover Professor----------");
-            escola.listarProfessor();
-            System.out.println("Insira o Id do professor");
-            long id = scanner.nextLong();
-
-            if (escola.existeIdProfessor(id)){
-                escola.deletarProfessor(id);
-            }
-        }
-    }
-
-    private static void buscarPorId(int opcao, Scanner scanner, Escola escola) {
-        if (opcao == 1){
-            System.out.println("----------Buscar Funcionário por id----------");
-            System.out.println("Insira o Id do funcionário");
-            long id = scanner.nextLong();
-
-            if (escola.existeIdFuncionario(id)){
-                escola.buscarFuncionarioPorID(id);
-            }
-        }
-        else if (opcao == 2) {
-            System.out.println("----------Buscar Aluno por id----------");
-            System.out.println("Insira o Id do aluno");
-            long id = scanner.nextLong();
-
-            if (escola.existeIdAluno(id)){
-                escola.buscarAlunoPorID(id);
-            }
-        }
-        else if (opcao == 3) {
-            System.out.println("----------Buscar Professor por id----------");
-            System.out.println("Insira o Id do professor");
-            long id = scanner.nextLong();
-
-            if (escola.existeIdProfessor(id)){
-                escola.buscarProfessorPorID(id);
-            }
-        }
-    }
-
-    private static void mediaNotaAluno(Scanner scanner, Escola escola) {
-        System.out.println("----------Média das notas----------");
-        escola.listarAlunos();
-        System.out.println("Insira o Id do aluno");
-        long id = scanner.nextLong();
-
-        if (escola.existeIdAluno(id)){
-            escola.mediaNotaAluno(id);
-        }
-    }
-     */
 }

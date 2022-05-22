@@ -58,12 +58,13 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "\nMatrícula do Aluno: "+this.getName()
-                +"\nNome do Aluno: "+this.getRegistration()
+        return "\n Matrícula do Aluno: "+this.getName()
+                +"\n Nome do Aluno: "+this.getRegistration()
                 +"\n CPF do Aluno: "+this.getCpf()
                 +"\n RG do Aluno: "+this.getRg()
                 +"\n Idade do Aluno: "+this.getAge()
                 +"\n Turma do Aluno: "+this.getTeam()
-                +"\n Nota do Aluno: "+this.getNotes();
+                +"\n Nota do Aluno: "+this.getNotes()
+                +"\n";
     }
 }

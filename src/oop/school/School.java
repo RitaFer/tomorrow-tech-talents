@@ -6,16 +6,18 @@ public class School {
     public ArrayList<Employee> employees;
     public ArrayList<Teacher> teachers;
 
-    public School() {
-
+    public School(ArrayList<Student> students, ArrayList<Employee> employees, ArrayList<Teacher> teachers) {
+        this.students = students;
+        this.employees = employees;
+        this.teachers = teachers;
     }
 
     public int findIndexStudent(String cpf){
-        for(Student student : students){
-            if(student.getCpf().equals(cpf)){
-                return students.indexOf(student);
+            for(Student student : students){
+                if(student.getCpf().equals(cpf)){
+                    return students.indexOf(student);
+                }
             }
-        }
         return -1;
     }
 
@@ -66,7 +68,7 @@ public class School {
         int indexTeacher = findIndexTeacher(cpf);
 
         if(indexTeacher == -1){
-            employees.add(teacher);
+            teachers.add(teacher);
             System.out.println("Professor inserido com sucesso.");
         }else{
             System.out.println("Professor já cadastrado.");
@@ -132,7 +134,7 @@ public class School {
     public void deleteEmployee(String cpf){
         int indexEmployee = findIndexEmployee(cpf);
         if(indexEmployee != -1){
-            students.remove(indexEmployee);
+            employees.remove(indexEmployee);
             System.out.println("Funcionário removido com sucesso.");
         }
     }
@@ -176,33 +178,6 @@ public class School {
                 System.out.println(teacher.toString());
                 System.out.println("------------------------------------------------------");
             }
-        }
-    }
-
-    public void readStudent(String cpf){
-        int indexStudent = findIndexStudent(cpf);
-        if(indexStudent != -1){
-            System.out.println(students.toString());
-        }else{
-            System.out.println("Aluno não encontrado no sistema.");
-        }
-    }
-
-    public void readEmployee(String cpf){
-        int indexEmployee = findIndexEmployee(cpf);
-        if(indexEmployee != -1){
-            System.out.println(employees.toString());
-        }else{
-            System.out.println("Funcionário não encontrado no sistema.");
-        }
-    }
-
-    public void readTeacher(String cpf){
-        int indexTeacher = findIndexTeacher(cpf);
-        if(indexTeacher != -1){
-            System.out.println(teachers.toString());
-        }else{
-            System.out.println("Professor não encontrado no sistema.");
         }
     }
 

@@ -26,10 +26,11 @@ public class Employee extends Person{
 
     @Override
     public String toString() {
-        return "\nNome do Funcionário: "+this.getName()
+        return "\n Nome do Funcionário: "+this.getName()
                 +"\n CPF do Funcionário: "+this.getCpf()
                 +"\n RG do Funcionário: "+this.getRg()
                 +"\n Cargo do Funcionário: "+this.getOffice()
-                +"\n Salário do Funcionário: R$ "+this.getSalary();
+                +"\n Salário do Funcionário: R$ "+this.getSalary()
+                +"\n";
     }
 }

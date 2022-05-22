@@ -31,11 +31,12 @@ public class Teacher extends Employee {
 
     @Override
     public String toString() {
-        return "\nNome do Professor: "+this.getName()
+        return "\n Nome do Professor: "+this.getName()
                 +"\n CPF do Professor: "+this.getCpf()
                 +"\n RG do Professor: "+this.getRg()
-                +"\n Classes do Professor: "+this.getClass()
-                +"\n Disciplinas do Professor: R$ "+this.getSubjects()
-                +"\n Salário do Professor: R$ "+this.getSalary();
+                +"\n Classes do Professor: "+this.getClasses()
+                +"\n Disciplinas do Professor: "+this.getSubjects()
+                +"\n Salário do Professor: R$ "+this.getSalary()
+                +"\n";
     }
 }
