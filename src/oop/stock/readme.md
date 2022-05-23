@@ -1,3 +1,5 @@
+<img src="https://github.com/RitaFer/tomorrow-tech-talents/blob/main/assets/TomorrowTechTalentsLogo.svg" style="width: 300%, height: auto, margin-left: auto, margin-left: auto" />
+
 ### Implementation Rules
 
  - A stock must have a name, a list of products and a unique identifier.
