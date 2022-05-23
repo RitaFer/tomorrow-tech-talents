@@ -11,8 +11,9 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 ### Table of Modules
 
 1. [Programming Logic](#programming-logic)
-2. [Object-Oriented Programming](#object-oriented-programming)
-3. [Extra](#extra)
+2. [Object-Oriented Programming I](#object-oriented-programming-i)
+3. [Object-Oriented Programming II](#object-oriented-programming-ii)
+4. [Extra](#extra)
 
 
 ### Programming Logic
@@ -102,11 +103,16 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 6. [Paint Store](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/programminglogic/class06/ex06.java) - Receives an area to be painted, and calculates the amount of paint 18L cans, or 3,6L gallons, needed and their total value.
 7. [Car Comparison](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/programminglogic/class06/ex07.java) - Receives car models and car consumptions, and prints them in a report.
 
-### Object-Oriented Programming
+### Object-Oriented Programming I
 #### Exercices
-1. [Soccer Game](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oop/soccer) -  Application for soccer game control according to some parameters for implementation stipulated above.
-2. [Stock Product](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oop/stock) - Application for stock control according to some parameters for implementation stipulated above.
-3. [School Members](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oop/school) - Application for stock control according to some parameters for implementation stipulated above.
+1. [Soccer Game](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oop/soccer) -  Application for soccer game control according to some parameters for implementation stipulated in readme.
+2. [Stock Product](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oop/stock) - Application for stock control according to some parameters for implementation stipulated readme.
+3. [School Members](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oop/school) - Application for stock control according to some parameters for implementation stipulated readme.
+4. [Enemies Game](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oop/enemies) - Application for stock control according to some parameters for implementation stipulated readme.
+
+### Object-Oriented Programming II
+#### Exercices
+No content here yet.
 
 ## Extra
 #### Hacker Rank
