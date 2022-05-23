@@ -1,3 +1,5 @@
+<img src="https://github.com/RitaFer/tomorrow-tech-talents/blob/main/assets/TomorrowTechTalentsLogo.svg" style="width: 300%, height: auto, margin-left: auto, margin-left: auto" />
+
 You must implement a basic system that represents a game with 4 enemy types: generic, vampire, snake and giant. All of them should have an attacking, catching and interacting function. The catch method must take an attack type and its damage as a parameter.
 
 ### Implementation Rules
