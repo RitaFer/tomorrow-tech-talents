@@ -1,4 +1,5 @@
-# School Registration Exercise
+<img src="https://github.com/RitaFer/tomorrow-tech-talents/blob/main/assets/TomorrowTechTalentsLogo.svg" style="width: 300%, height: auto, margin-left: auto, margin-left: auto" />
+
 You must implement a basic registration system in the school being possible to register student, teacher and employee.
 
 ### Implementation Rules
