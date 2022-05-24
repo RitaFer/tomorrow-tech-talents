@@ -1,4 +1,4 @@
-package oop.stock;
+package oopi.stock;
 import java.util.ArrayList;
 import java.util.List;
 

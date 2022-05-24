@@ -1,4 +1,4 @@
-package oop.enemies;
+package oopi.enemies;
 
 public abstract class Enemy {
     protected String name;

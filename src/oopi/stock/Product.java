@@ -1,6 +1,4 @@
-package oop.stock;
-
-import java.util.Scanner;
+package oopi.stock;
 
 public class Product {
     private int idProduct;

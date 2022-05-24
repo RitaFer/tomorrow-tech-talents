@@ -1,4 +1,4 @@
-package oop.soccer;
+package oopi.soccer;
 import java.time.LocalDate;
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package oop.school;
+package oopi.school;
 
 public class Employee extends Person{
 

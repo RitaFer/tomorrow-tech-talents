@@ -1,4 +1,4 @@
-package oop.school;
+package oopi.school;
 
 import java.util.ArrayList;
 
