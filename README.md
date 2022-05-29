@@ -26,11 +26,12 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 ### Object-Oriented Programming I
 1. [Soccer Game](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopi/soccer) -  Application for soccer game control according to some parameters for implementation stipulated in readme.
 2. [Stock Product](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopi/stock) - Application for stock control according to some parameters for implementation stipulated readme.
-3. [School Members](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopi/school) - Application for stock control according to some parameters for implementation stipulated readme.
-4. [Enemies Game](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopi/enemies) - Application for stock control according to some parameters for implementation stipulated readme.
+3. [School Members](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopi/school) - Application for school control according to some parameters for implementation stipulated readme.
+4. [Enemies Game](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopi/enemies) - Application for enemies game according to some parameters for implementation stipulated readme.
 
 ### Object-Oriented Programming II
-1. [Calculator](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopii/calculator) - Application for stock control according to some parameters for implementation stipulated readme.
+1. [Calculator](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopii/calculator) - Application for calculator according to some parameters for implementation stipulated readme.
+2. [Cards Game](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopii/cardsgame) - Application for cards game according to some parameters for implementation stipulated readme.
 
 ### Extra
 #### Hacker Rank
