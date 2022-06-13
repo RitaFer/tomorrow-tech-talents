@@ -32,6 +32,7 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 ### Object-Oriented Programming II
 1. [Calculator](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopii/calculator) - Application for calculator according to some parameters for implementation stipulated readme.
 2. [Cards Game](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopii/cardsgame) - Application for cards game according to some parameters for implementation stipulated readme.
+3. [Library Store](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopii/store) - Application for a library system according to some parameters for implementation stipulated readme.
 
 ### Extra
 #### Hacker Rank
