@@ -1,3 +1,5 @@
+<img src="https://github.com/RitaFer/tomorrow-tech-talents/blob/main/assets/oop-stock-images/2022-05-09_19h38_53.png" />
+
 You must implement a simplified system of a card game, with no game operation required, but implementing some rules and components, such as cards and boards.
 
 ### Implementation Rules
