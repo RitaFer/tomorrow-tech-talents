@@ -1,57 +1,54 @@
-<img src="https://github.com/RitaFer/tomorrow-tech-talents/blob/main/assets/oop-stock-images/2022-05-09_19h38_53.png" />
-
+<img src="https://github.com/RitaFer/tomorrow-tech-talents/blob/main/assets/TomorrowTechTalentsLogo.svg" style="width: 300%, height: auto, margin-left: auto, margin-left: auto" />
 
 <img src="https://github.com/RitaFer/tomorrow-tech-talents/blob/main/assets/oop-stock-images/diagram_librarysystem.png" />
 
-No exemplo a seguir você deve implementar o sistema de uma livraria e depois algumas mudanças de escopo serão aplicadas, por isto o exercício será dividido em duas etapas.
+In the following example you must implement a bookstore system and then some scope changes will be applied, so the exercise will be divided into two steps.
 
-## Primeira etapa
+## First step
 
-### Regras de Implementação
-O sistema deve ser capaz de cadastrar os seguintes produtos: **livros**, **jogos**, **filmes**, **álbuns de música** e **brinquedos**.
+### Implementation Rules
+The system must be able to register the following products: **books**, **games**, **movies**, **music albums** and **toys**.
 
-#### Livros:
-Devem ter **nome**, **id**, **preço**, **gêneros**, **escritor**, **editora** .
+#### Books:
+They must have **name**, **id**, **price**, **genres**, **writer**, **publisher** .
 
-#### Jogos:
-Devem ter **nome**, **id**, **preço**, **distribuidora**, **gênero** e **estúdio**
+#### Games:
+Must have **name**, **id**, **price**, **distributor**, **genre** and **studio**
 
-#### Filmes:
-Devem ter **nome**, **id**, **preço**, **estúdio**, **diretores**, **gêneros** e **produtores**
+#### Films:
+Must have **name**, **id**, **price**, **studio**, **directors**, **genres** and **producers**
 
-#### Álbuns de música:
-Devem ter **nome**, **id**, **preço**, **músicos/bandas**, **gêneros** e **selos**
+#### Music albums:
+Must have **name**, **id**, **price**, **musicians/bands**, **genres** and **stamps**
 
-#### Brinquedos:
-Devem ter **nome**, **id**, **preço** e **tipo**.
+#### Toys:
+They must have **name**, **id**, **price** and **type**.
 <hr />
 
-Além disso nosso sistema deve possuir um **caixa**. Este caixa deve ter a informação de dinheiro que está presente nele.
+In addition our system must have a **cashier**. This cashier must have the money information that is present on it.
 
-#### Algumas funcionalidades do sistema:
+#### Some system features:
 
-- Você deve ser capaz de adicionar, ver, alterar e remover qualquer produto do sistema.
-- Você deve ser capaz de ver quantos itens de um tipo específico existem no estoque.
-- Você deve ser capaz de ver a listagem completa dos itens em estoque.
-- Você deve ser capaz de ver a listagem dos itens em estoque por categoria.
-- Você deve ser capaz de realizar a **operação de compra**, ao realizar esta operação os produtos comprados são removidos do estoque e o dinheiro pago deve ser adicionado ao caixa.
+- You must be able to add, view, change and remove any product from the system.
+- You should be able to see how many items of a specific type are in stock.
+- You should be able to see the complete listing of items in stock.
+- You should be able to see the listing of in-stock items by category.
+- You must be able to perform the **purchase operation**, when performing this operation the purchased products are removed from the stock and the money paid must be added to the cashier.
 
-## Segunda Etapa:
+## Second stage:
 
-Duas mudanças de escopo foi solicitada com urgência. Agora um produto pode ser adicionado com um rótulo: **destinado ao público adulto**. Neste caso para que a compra do produto seja realizada será necessária a apresentação dos documentos do comprador (**Nome**, **RG**, **CPF** e **Data de Nascimento**) se o comprador tiver menos de 18 anos a compra deve ser bloqueada.
+Two scope changes were urgently requested. Now a product can be added with a label: **intended for adults**. In this case, for the purchase of the product to be carried out, it will be necessary to present the buyer's documents (**Name**, **RG**, **CPF** and **Date of Birth**) if the buyer has less 18 years old the purchase must be blocked.
 
-Outra mudança solicitada foi que toda compra que passar de **R$200,00** em livros deve receber um desconto de **15%**.
+Another requested change was that every purchase over **R$200.00** in books should receive a **15%** discount.
 
-## Dicas finais
+## Final Tips
 
-- Pense bem nos princípios do **SOLID** para a realização do exercício.
-- Tente realizar o exercício por etapas como proposto, desta maneira vocês estarão simulando uma situação mais próxima a realidade de mercado e trabalhando melhor os princípios de *POO*.
-- Pense e se possível escreva a estrutura que será necessária para que o software seja construído.
-- Além dos conceitos do **SOLID** tente aplicar também os demais conceitos aprendidos nas aulas de *POO*.
-- Escreva uma documentação para seu projeto no *Github*, ela ajuda a expor as habilidades aprendidas e as demais pessoas que acessarem seu repositório entenderem o que está acontecendo.
-- Crie quantas entidades quiser para facilitar a resolução do exercício.
-- Tente ser declarativo em relação ao nome dos métodos, classes, interfaces e variáveis.
-- Não guarde as dúvidas para você, compartilhe com os professores e a turma, as vezes mais colegas estão com o mesmo problema, ou é uma questão que não foi pensada inicialmente pelos professores.
-- Aproveite o exercício para fixar os conceitos ensinados em aula.
-
-## [Diagrama da resolução](https://lucid.app/lucidspark/8de75d29-875e-45c2-9b93-e94caa18c78b/edit?invitationId=inv_a6777fc5-c78f-43f5-99b0-afc10ef77ab9#).
+- Think about the **SOLID** principles for the exercise.
+- Try to carry out the exercise in stages as proposed, in this way you will be simulating a situation closer to the market reality and working better on the *OOP* principles.
+- Think and if possible write the structure that will be necessary for the software to be built.
+- In addition to the **SOLID** concepts, try also to apply the other concepts learned in the *OOP* classes.
+- Write documentation for your project on *Github*, it helps to expose the skills learned and other people who access your repository understand what is happening.
+- Create as many entities as you want to facilitate the resolution of the exercise.
+- Try to be declarative about the names of methods, classes, interfaces and variables.
+- Do not keep the doubts to yourself, share them with the teachers and the class, sometimes more colleagues have the same problem, or it is an issue that was not initially thought of by the teachers.
+- Take advantage of the exercise to fix the concepts taught in class.
