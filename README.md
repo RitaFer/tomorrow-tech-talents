@@ -13,7 +13,8 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 1. [Programming Logic](#programming-logic)
 2. [Object-Oriented Programming I](#object-oriented-programming-i)
 3. [Object-Oriented Programming II](#object-oriented-programming-ii)
-4. [Extra](#extra)
+4. [Programming Techniques I](#programming-techniques-i)
+5. [Extra](#extra)
 
 ### Programming Logic
 1. [List 1](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/programminglogic/class01)
@@ -33,6 +34,9 @@ Is a 5 months course, with 430 hours. Where will be seen, Programming Logic, Obj
 1. [Calculator](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopii/calculator) - Application for calculator according to some parameters for implementation stipulated readme.
 2. [Cards Game](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopii/cardsgame) - Application for cards game according to some parameters for implementation stipulated readme.
 3. [Library Store](https://github.com/RitaFer/tomorrow-tech-talents/tree/main/src/oopii/store) - Application for a library system according to some parameters for implementation stipulated readme.
+
+## Programming Techniques I
+There is nothing here yet!
 
 ### Extra
 #### Hacker Rank
