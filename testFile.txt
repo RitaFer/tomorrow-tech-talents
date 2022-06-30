@@ -1,0 +1,3 @@
+Isso é apenas um teste !
+Vai concatenar?
+Isso é apenas um teste para ver se vai concatenar !
