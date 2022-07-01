@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class BufferedWriterTest {
     public static void main(String[] args) throws IOException {
-        File arch = new File("testFile.txt");
+        File arch = new File("testBuffered.txt");
         FileWriter archWriter = new FileWriter(arch);
         try(BufferedWriter bf = new BufferedWriter(archWriter)){
             bf.write("Isso é apenas um teste !");
