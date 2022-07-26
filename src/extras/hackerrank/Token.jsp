@@ -7,6 +7,7 @@
     i++;
     out.print("The value of i is now:  " + i);
     out.print("");
+    ["'"+i+"'"]
 %>
 
 <%--
